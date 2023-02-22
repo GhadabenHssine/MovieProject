@@ -1,0 +1,33 @@
+.bloc{
+    width: 280px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    height: 410px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.25s;
+
+    
+}
+.bloc:hover{
+    transform: scale(1.05);
+}
+img{
+    width: 150px; 
+    padding: 10px;
+}
+.titre{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(85, 8, 8);
+   
+}
+.desc{
+    padding: 20px;
+    color: gray;
+}
+
